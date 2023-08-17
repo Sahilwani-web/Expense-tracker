@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  margin-left: 200px;
+  width: 80%;
+  height: 90vh;
+  background-color: aquamarine;
+  margin-top: 50px;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  width: 40%;
+  border: 2px solid red;
+}
+.btns{
+  width: 100%;
+}
+.cards{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.cards div.card{
+  width: 200px !important;
+}
+.cards div.card-body{
+  text-align: center;
+}
+
